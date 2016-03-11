@@ -10,7 +10,7 @@ describe "{{name}}", ->
     room = helper.createRoom()
 
   afterEach ->
-    nock.cleanAll()
+    room.destroy()
 
   context "test", ->
     beforeEach (done) ->
