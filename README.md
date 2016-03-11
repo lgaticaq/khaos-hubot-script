@@ -22,7 +22,15 @@ $ khaos install lgaticaq/khaos-hubot-script
 Create the hubot script with the following command:
 
 ```bash
-$ khaos create hubot-script <name>
+$ khaos create hubot-script hubot-my-awesome-script
+
+
+author: Leonardo Gatica
+name: hubot-my-awesome-script
+owner: lgaticaq
+description: A Hubot script awesome
+
+   khaos · Generated "hubot-my-awesome-script".
 ```
 
 ## License
