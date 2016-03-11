@@ -31,6 +31,9 @@ owner: lgaticaq
 description: A Hubot script awesome
 
    khaos · Generated "hubot-my-awesome-script".
+
+
+$ cd hubot-my-awesome-script && npm i && npm t
 ```
 
 ## License
