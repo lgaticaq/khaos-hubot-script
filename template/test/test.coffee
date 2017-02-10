@@ -4,21 +4,19 @@ expect = require("chai").expect
 helper = new Helper("./../src/index.coffee")
 
 describe "{{name}}", ->
-  room = null
-
   beforeEach ->
-    room = helper.createRoom()
+    @room = helper.createRoom()
 
   afterEach ->
-    room.destroy()
+    @room.destroy()
 
   context "test", ->
     beforeEach (done) ->
-      room.user.say("user", "hubot {{name}}")
+      @room.user.say("user", "hubot {{name}}")
       setTimeout(done, 100)
 
     it "should reply", ->
-      expect(room.messages).to.eql([
+      expect(@room.messages).to.eql([
         ["user", "hubot {{name}}"]
         ["hubot", "{{name}}"]
       ])
