@@ -35,11 +35,11 @@
     "chai": "^3.5.0",
     "codeclimate-test-reporter": "^0.4.0",
     "coffee-coverage": "^1.0.1",
-    "coffee-script": "^1.12.2",
+    "coffee-script": "^1.12.3",
     "coffeelint": "^1.16.0",
-    "coveralls": "^2.11.15",
+    "coveralls": "^2.11.16",
     "generate-changelog": "^1.1.0",
-    "hubot-test-helper": "^1.5.0",
+    "hubot-test-helper": "^1.5.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   }
